@@ -4,8 +4,8 @@ const AwardInfo = ({ className, children }) => {
   return (
     <div className="awardInfo">
         <div className="centered">
-
-            <StyledHospitalImage src ="https://github.com/brus99/React-Health-App/blob/main/public/adult-hospitals.png" className="centered" width = {450} />
+            <p>test</p>
+            <StyledHospitalImage src ="/src/Assets/award.jpg" className="centered" width = {450} />
         </div>
         <div className="centered">
             <AwardH3>#1 in California</AwardH3> 

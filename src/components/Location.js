@@ -11,7 +11,7 @@ const Location = () => {
         <TopNavigationBar/>
         <NavBarLower/>
         <StyledLocationImgPaper elevation = {12} className="centered">
-            <img src = '../EntranceIMage.jpeg' width = {700} alt = ""/>
+            <img src = 'EntranceImage.jpeg' width = {700} alt = ""/>
         </StyledLocationImgPaper>
         <LocationCards/>
         <BottomNav/>

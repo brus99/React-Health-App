@@ -1,0 +1,50 @@
+.navigaiton{
+  background-color: blue;
+}
+.HospitalLogo{
+  background-color:lightskyblue;
+  padding: 5px;
+  border-radius:4px;
+  box-shadow: "10px 3px 1px #9E9E9E";
+  text-align: center;
+  margin-left: 2%;
+}
+.lowerNavbar{
+  background-color: red;
+  width:100%;
+}
+.mainSection{
+  background-color: gainsboro;
+  margin:0 auto;
+}
+.buttons{
+  margin:0 auto;
+  text-align:center;
+  margin-bottom: 15px;
+}
+.buttonStyle{
+  padding-left:50px;
+  padding-right: 50px;
+}
+.awardInfo{
+  background-image: linear-gradient(rgb(31, 185, 190),rgb(6, 117, 192));
+  border-top-left-radius: 50%;
+  margin-top: 50px;
+}
+.centered{
+  margin:0 auto;
+  text-align:center;
+}
+.location{
+  background-image: url(../public/backdrop.jfif);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: red;
+}
+.doctorPage{
+  
+  background: linear-gradient(180deg, rgb(48,129,175) 50%, gainsboro 60%);
+}
+.TopNavigationBar{
+  background-color: bisque;
+}

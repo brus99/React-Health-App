@@ -4,7 +4,7 @@ const AwardInfo = ({ className, children }) => {
   return (
     <div className="awardInfo">
         <div className="centered">
-            <StyledHospitalImage src = '../adult-hospitals.png' className="centered" width = {450} />
+            <StyledHospitalImage src = 'public/adult-hospitals.png' className="centered" width = {450} />
         </div>
         <div className="centered">
             <AwardH3>#1 in California</AwardH3> 

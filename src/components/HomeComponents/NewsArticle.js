@@ -5,7 +5,7 @@ const NewsArticle = () => {
     <div>
         <StyledNewsContainer>
             <StyledNewsCard>
-                <Card.Img variant = 'top' src = '../Techquity.jpg'></Card.Img>
+                <Card.Img variant = 'top' src = 'Techquity.jpg'></Card.Img>
                 <Card.Body>
                     <Card.Title>
                         Tech
@@ -22,7 +22,7 @@ const NewsArticle = () => {
                 </Card.Body>
             </StyledNewsCard>
             <StyledNewsCard>
-                <Card.Img variant = 'top' src = '../spaceMedicine.jfif'></Card.Img>
+                <Card.Img variant = 'top' src = 'spaceMedicine.jfif'></Card.Img>
                 <Card.Body>
                     <Card.Title>
                         Space Fellowship
@@ -39,7 +39,7 @@ const NewsArticle = () => {
                 </Card.Body>
             </StyledNewsCard>
             <StyledNewsCard>
-                <Card.Img variant = 'top' src = '../surgery.jpg'></Card.Img>
+                <Card.Img variant = 'top' src = 'surgery.jpg'></Card.Img>
                 <Card.Body>
                     <Card.Title>
                         UCLA Ranks #1 in California

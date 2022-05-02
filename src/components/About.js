@@ -13,7 +13,7 @@ const About = () => {
         <TopNavigationBar/>
         <NavBarLower/>
         <StyledLogoContainer>
-            <img src = '../uclaTeam.png' width = {350} alt = ""/>
+            <img src = 'uclaTeam.png' width = {350} alt = ""/>
         </StyledLogoContainer>
         <StyledAboutContainer>
             <StyledAboutPaper elevation = '12'>
@@ -54,7 +54,7 @@ const About = () => {
         </StyledInfoDiv>
         <StyledImageContainer>
             <StyledAboutImgPaper>
-                <StyledImg src = '../work.jpg'/>
+                <StyledImg src = 'work.jpg'/>
             </StyledAboutImgPaper>
             <StyledAboutH3>US News and World Report 2021 Specialty National Rankings</StyledAboutH3>
         </StyledImageContainer>

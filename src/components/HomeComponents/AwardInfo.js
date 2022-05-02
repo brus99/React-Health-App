@@ -5,7 +5,7 @@ const AwardInfo = ({ className, children }) => {
     <div className="awardInfo">
         <div className="centered">
             <p>test</p>
-            <StyledHospitalImage src ="../award.jpg" className="centered" width = {450} />
+            <StyledHospitalImage src ="award.jpg" className="centered" width = {450} />
         </div>
         <div className="centered">
             <AwardH3>#1 in California</AwardH3> 

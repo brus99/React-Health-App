@@ -3,9 +3,9 @@ import {  Card } from "react-bootstrap"
 import { Link } from "react-router-dom";
 import { StyledCardHeader, StyledDoctorDiv, StyledDoctorPaper, StyledFavoriteIcon, StyledHospitalIcon, StyledOpacFavoriteIcon, StyledProfileButton } from "../StyledComponents/Styled";
     const profile = [
-        {pic:'../doctorSarah.jpg',name:'Sarah Smith M.D.',body:'Doctor Sarah Smith is a Harvard Medical graduate with over 20 years of Pulmonology experience. He completed his fellowship at UCLA and has been the lead for the pulmonology unit for 5 years.'},
-        {pic:'../jane.jpg',name:'Jane Bright M.D.',body:'Doctor Jane Bright is a Yale Medical School graduate with a passion for pediatric care. She has received the nobel prize and a valued member of UCLA Health for 30 years.'},
-        {pic:'../doctorDan.webp',name:'Dave Matthews M.D.',body:'Doctor Dave Matthews is a Cambridge University graduate with a speciality in neurology. He has made strides in his field with his research on neuropathy treatments. Dr. Ajay joined UCLA Health after his fellowship at University of Chicago and has been a member of UCLA for 15 years.'},
+        {pic:'doctorSarah.jpg',name:'Sarah Smith M.D.',body:'Doctor Sarah Smith is a Harvard Medical graduate with over 20 years of Pulmonology experience. He completed his fellowship at UCLA and has been the lead for the pulmonology unit for 5 years.'},
+        {pic:'jane.jpg',name:'Jane Bright M.D.',body:'Doctor Jane Bright is a Yale Medical School graduate with a passion for pediatric care. She has received the nobel prize and a valued member of UCLA Health for 30 years.'},
+        {pic:'doctorDan.webp',name:'Dave Matthews M.D.',body:'Doctor Dave Matthews is a Cambridge University graduate with a speciality in neurology. He has made strides in his field with his research on neuropathy treatments. Dr. Ajay joined UCLA Health after his fellowship at University of Chicago and has been a member of UCLA for 15 years.'},
     ]   
 const DoctorProfile = () => {
   return (

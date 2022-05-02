@@ -27,16 +27,16 @@ const NavBarLower = () => {
                             </Dropdown.Item>
                         </StyledLink>
                         <StyledLink to = "/Location" >
-                            <Dropdown.Item>
+                            <Dropdown.Item href ="/Location">
                                 Find a location
                             </Dropdown.Item>
                         </StyledLink>
-                        <StyledLink to = "/Location" >
-                            <Dropdown.Item href = '#/About'>
+                        <StyledLink to = "/About" >
+                            <Dropdown.Item href = '/About'>
                                 About Us
                             </Dropdown.Item>
                         </StyledLink>
-                       {userData? <Dropdown.Item href = "#/Profile">Profile</Dropdown.Item>:null}
+                       {userData? <StyledLink to = "/Profile"><Dropdown.Item href = "/Profile">Profile</Dropdown.Item></StyledLink>:null}
                    </Dropdown.Menu>
                 </Dropdown>
             </StyledLowerNavbarBrandMargin>

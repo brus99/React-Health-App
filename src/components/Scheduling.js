@@ -1,5 +1,4 @@
 import {  Form } from "react-bootstrap"
-import BottomNav from "./NavigationComponents/BottomNav"
 import NavBarLower from "./NavigationComponents/NavBarLower"
 import TopNavigationBar from "./NavigationComponents/TopNavigationBar"
 import { Link } from "react-router-dom";
@@ -111,7 +110,6 @@ const Scheduling = () => {
             </StyledRegisterDiv>
         )}
         </div>}
-        <BottomNav/>
     </div>
   )
 }

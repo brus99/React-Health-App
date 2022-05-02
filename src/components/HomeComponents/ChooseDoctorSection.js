@@ -1,3 +1,4 @@
+import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { DoctorCard, DoctorDescriptionCard, DoctorDiv, DoctorH1, DoctorImageContainer, DoctorParagraph, DoctorPhoto, DoctorSectionDiv, StyledButton, StyledHospitalIcon } from "../StyledComponents/Styled";
 const ChooseDoctorSection = () => {
@@ -11,9 +12,9 @@ const ChooseDoctorSection = () => {
         <DoctorDiv>
             <DoctorDescriptionCard>
                 <DoctorH1>Your best life is powered by your personalized primary care team</DoctorH1>
-                <DoctorParagraph >The primary care physicians at UCLA Health are here for you in all stages of your life. Whether you are sick or injured
+                <Card.Text>The primary care physicians at UCLA Health are here for you in all stages of your life. Whether you are sick or injured
                     or have a general health concern, your primary care doctor is your point person for connecting you to our network of specialists.
-                </DoctorParagraph>
+                </Card.Text>
                 <Link to = '/SelectDoctor'>
                     <StyledButton variant = 'primary' active size = 'lg'>
                         Find A Doctor   

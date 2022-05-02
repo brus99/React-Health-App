@@ -1,7 +1,7 @@
 import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material"
 import { StyledAppointDiv, StyledAppointPaper } from "../StyledComponents/Styled";
 const Appointments = () => {
-    const appointmentData = JSON.parse(localStorage.getItem("appoint"))
+    const appointmentData = JSON.parse(sessionStorage.getItem("appoint"))
   return (
     <StyledAppointDiv>
         {appointmentData? 

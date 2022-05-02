@@ -3,7 +3,7 @@ import { Dropdown } from "react-bootstrap";
 import { StyledDropDownToggle, StyledH3Black, StyledLink, StyledLowerNavbarBrand, StyledLowerNavbarBrandMargin, StyledLowerNavDiv, StyledNavbar, StyledNavbarBrand, StyledNavH3, StyledShadowDiv } from "../StyledComponents/Styled";
 
 const NavBarLower = () => {
-    const userData = JSON.parse(localStorage.getItem("userData"))
+    const userData = JSON.parse(sessionStorage.getItem("userData"))
   return (
     <StyledLowerNavDiv>
         <StyledNavbar bg = 'light' variant = 'light'>

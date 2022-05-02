@@ -12,7 +12,6 @@ const SignUp = () => {
     const [loading,setLoading] = useState(false);
     const handleSubmit = ((e)=>{
         e.preventDefault();
-        console.log(e.target.value)
       const user = {
         firstName:e.target.firstName.value, 
         lastName:e.target.lastName.value,
@@ -25,8 +24,7 @@ const SignUp = () => {
         dob:e.target.dob.value,
         extra:e.target.extra.value,
       }
-      console.log(user);  
-      localStorage.setItem("userData",JSON.stringify(user))
+      sessionStorage.setItem("userData",JSON.stringify(user))
       setLoading(true)
       setTimeout(() => {
           navigate('/')

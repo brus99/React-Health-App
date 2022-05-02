@@ -3,7 +3,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import {  Typography } from "@mui/material";
 import {  StyledProfileInfoDiv, StyledDescHeader, StyledInfoPaper,  StyledProfilePaper, StyledProfileText, StyledProfRow, StyledTableHead, StyledTitleRow } from "../StyledComponents/Styled";
 const ProfileSection = () => {
-    const userData = JSON.parse(localStorage.getItem("userData"))
+    const userData = JSON.parse(sessionStorage.getItem("userData"))
   return (
     <div>
         <StyledProfilePaper elevation = {12} className = 'centered'>  

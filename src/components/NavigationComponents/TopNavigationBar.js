@@ -6,10 +6,10 @@ import { StyledHealthAndSafetyIcon, StyledHistoryIcon, StyledLink, StyledLogoutB
                      
 const TopNavigationBar = () => {
      const navigate = useNavigate();
-    const userData = JSON.parse(localStorage.getItem("userData"))
+    const userData = JSON.parse(sessionStorage.getItem("userData"))
     const handleLogout = () => {
-         localStorage.removeItem("userData")
-         localStorage.getItem("userData")
+         sessionStorage.removeItem("userData")
+         sessionStorage.getItem("userData")
          navigate(-1)
     }
   return (

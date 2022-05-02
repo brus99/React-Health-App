@@ -10,7 +10,7 @@ import { StyledH2, StyledProfileButton, StyledRegisterDiv, StyledRegisterPaper, 
 const Scheduling = () => {
     const navigate = useNavigate();
     const [loading,setLoading] = useState(false);
-    const userData = JSON.parse(localStorage.getItem("userData"))
+    const userData = JSON.parse(sessionStorage.getItem("userData"))
     const handleSubmit = (e) =>{
         e.preventDefault();
         const userAppointment = {
@@ -24,10 +24,10 @@ const Scheduling = () => {
             insurance:e.target.insurance.value,
             requested:'Pending',
         }
-        localStorage.getItem("appoint")
+        sessionStorage.getItem("appoint")
         setLoading(true)
         setTimeout(() => {
-            localStorage.setItem("appoint",JSON.stringify(userAppointment));
+            sessionStorage.setItem("appoint",JSON.stringify(userAppointment));
             navigate('/')
             setLoading(false)
         }, 1000);

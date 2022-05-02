@@ -1,5 +1,6 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import { Dropdown } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import { StyledDropDownToggle, StyledH3Black, StyledLink, StyledLowerNavbarBrand, StyledLowerNavbarBrandMargin, StyledLowerNavDiv, StyledNavbar, StyledNavbarBrand, StyledNavH3, StyledShadowDiv } from "../StyledComponents/Styled";
 
 const NavBarLower = () => {
@@ -20,9 +21,21 @@ const NavBarLower = () => {
                        <MenuIcon/>
                    </StyledDropDownToggle>
                    <Dropdown.Menu>
-                       <Dropdown.Item href = '#/SelectDoctor'>Find A Doctor</Dropdown.Item>
-                       <Dropdown.Item href = '#/Location'>Find a location</Dropdown.Item>
-                       <Dropdown.Item href = '#/About'>About Us</Dropdown.Item>
+                        <StyledLink to = "/SelectDoctor" >
+                            <Dropdown.Item href = '/SelectDoctor'>
+                                Find A Doctor
+                            </Dropdown.Item>
+                        </StyledLink>
+                        <StyledLink to = "/Location" >
+                            <Dropdown.Item>
+                                Find a location
+                            </Dropdown.Item>
+                        </StyledLink>
+                        <StyledLink to = "/Location" >
+                            <Dropdown.Item href = '#/About'>
+                                About Us
+                            </Dropdown.Item>
+                        </StyledLink>
                        {userData? <Dropdown.Item href = "#/Profile">Profile</Dropdown.Item>:null}
                    </Dropdown.Menu>
                 </Dropdown>

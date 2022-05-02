@@ -14,6 +14,7 @@ const Profile = () => {
     const[drawerOpen,setDrawerOpen] = useState(true);
     const [showAppointments,setShowAppointments] = useState();
     const [showProfile,setShowProfile] = useState();
+    const userData = JSON.parse(sessionStorage.getItem("userData"))
     const navigate = useNavigate();
     const closeDrawer = () => {
         setDrawerOpen(!drawerOpen)
@@ -57,13 +58,14 @@ const Profile = () => {
                 {!drawerOpen ? null : <ArrowBackIosIcon/> }
               </StyledIconButton>
               </StyledDrawerHeadDiv>
+              {userData?
               <List>
                 <ListItem button key='User Profile' onClick={handleProfileSelect}>
                   <ListItemIcon><PersonIcon/>
                   </ListItemIcon>
                   <ListItemText primary='Profile' />
                 </ListItem>
-              </List>
+              </List>:null}
             <List>
               <ListItem button key='Contact Us' onClick = {handleAppointmentSelect}>
                 <ListItemIcon><CalendarMonthIcon/>

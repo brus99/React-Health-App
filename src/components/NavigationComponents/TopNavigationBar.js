@@ -10,7 +10,7 @@ const TopNavigationBar = () => {
     const handleLogout = () => {
          sessionStorage.removeItem("userData")
          sessionStorage.getItem("userData")
-         navigate(-1)
+         navigate("/")
     }
   return (
     <div className = 'TopNavigationBar'>

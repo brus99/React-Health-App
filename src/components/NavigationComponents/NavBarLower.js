@@ -20,10 +20,10 @@ const NavBarLower = () => {
                        <MenuIcon/>
                    </StyledDropDownToggle>
                    <Dropdown.Menu>
-                       <Dropdown.Item href = '/SelectDoctor'>Find A Doctor</Dropdown.Item>
-                       <Dropdown.Item href = '/Location'>Find a location</Dropdown.Item>
-                       <Dropdown.Item href = '/About'>About Us</Dropdown.Item>
-                       {userData? <Dropdown.Item href = "/Profile">Profile</Dropdown.Item>:null}
+                       <Dropdown.Item href = '#/SelectDoctor'>Find A Doctor</Dropdown.Item>
+                       <Dropdown.Item href = '#/Location'>Find a location</Dropdown.Item>
+                       <Dropdown.Item href = '#/About'>About Us</Dropdown.Item>
+                       {userData? <Dropdown.Item href = "#/Profile">Profile</Dropdown.Item>:null}
                    </Dropdown.Menu>
                 </Dropdown>
             </StyledLowerNavbarBrandMargin>

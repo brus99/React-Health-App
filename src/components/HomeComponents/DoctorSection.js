@@ -11,7 +11,7 @@ const DoctorPage = () => {
         <TopNavigationBar/>
         <NavBarLower/>
         <CenterDoctorCard>
-            <img src = '../PatientHelped.jpg' alt = ""/>
+            <img src = 'PatientHelped.jpg' alt = ""/>
         </CenterDoctorCard>
     <StyledFlexDiv>
         <Container>

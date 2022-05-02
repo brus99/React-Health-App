@@ -5,7 +5,7 @@ const ChooseDoctorSection = () => {
     <DoctorSectionDiv>
         <DoctorImageContainer>
             <DoctorCard>
-                <DoctorPhoto src = '../find-a-provider.png'/>
+                <DoctorPhoto src = 'find-a-provider.png'/>
             </DoctorCard>
         </DoctorImageContainer>
         <DoctorDiv>

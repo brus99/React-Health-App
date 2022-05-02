@@ -1,6 +1,5 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import { Dropdown } from "react-bootstrap";
-import { Link } from 'react-router-dom';
 import { StyledDropDownToggle, StyledH3Black, StyledLink, StyledLowerNavbarBrand, StyledLowerNavbarBrandMargin, StyledLowerNavDiv, StyledNavbar, StyledNavbarBrand, StyledNavH3, StyledShadowDiv } from "../StyledComponents/Styled";
 
 const NavBarLower = () => {

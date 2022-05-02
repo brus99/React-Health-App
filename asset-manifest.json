@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Health-App/static/css/main.8206a8b3.css",
-    "main.js": "/React-Health-App/static/js/main.7ff34418.js",
+    "main.js": "/React-Health-App/static/js/main.b6202aa8.js",
     "static/media/backdrop.jfif": "/React-Health-App/static/media/backdrop.1316fefcf48fdc00b839.jfif",
     "index.html": "/React-Health-App/index.html",
     "main.8206a8b3.css.map": "/React-Health-App/static/css/main.8206a8b3.css.map",
-    "main.7ff34418.js.map": "/React-Health-App/static/js/main.7ff34418.js.map"
+    "main.b6202aa8.js.map": "/React-Health-App/static/js/main.b6202aa8.js.map"
   },
   "entrypoints": [
     "static/css/main.8206a8b3.css",
-    "static/js/main.7ff34418.js"
+    "static/js/main.b6202aa8.js"
   ]
 }

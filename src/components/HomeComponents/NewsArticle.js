@@ -5,7 +5,7 @@ const NewsArticle = () => {
     <div>
         <StyledNewsContainer>
             <StyledNewsCard>
-                <Card.Img variant = 'top' src = 'Techquity.jpg'></Card.Img>
+                <Card.Img variant = 'top' src = './Techquity.jpg'></Card.Img>
                 <Card.Body>
                     <Card.Title>
                         Tech
